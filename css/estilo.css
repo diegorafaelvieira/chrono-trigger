@@ -389,9 +389,26 @@ footer p {
     transition: opacity 800ms, transform 800ms;
 }
 
-/* Aqui escondo form anti-robô no contato.html */
-.nao-aparece {
-    visibility: hidden;
-    position: absolute;
-    height: 0px;
-}
+/* AQUI BARRA DE CARREGAMENTO PADRÃO YOUTUBE VER JS TAMBÉM */
+.pace {
+    -webkit-pointer-events: none;
+    pointer-events: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+  
+  .pace-inactive {
+    display: none;
+  }
+  
+  .pace .pace-progress {
+    background:#FAA237;
+    position: fixed;
+    z-index: 2000;
+    top: 0;
+    right: 100%;
+    width: 100%;
+    height: 4px;
+  }
+  
