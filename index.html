@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/grid.css">
     <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/responsivo.css">
+
+    <script>document.documentElement.classList.add("js");</script>
 
 </head>
 <body>
@@ -15,32 +18,51 @@
     <header class="header">
         <div class="container">
             <a href="index.html" class="grid-4">
-                <img src="img/logo.PNG" alt="Crono Trigegr">
+                <img src="img/logo.PNG" alt="Chrono Trigger" data-anime="300" class="fadeInDown">
             </a>
             <nav class="grid-12 header_menu">
                 <ul>
                     <li><a href="sobre.html">Sobre</a></li>
                     <li><a href="personagens.html">Personagens</a></li>
-                    <li><a href="https://pt.wikipedia.org/wiki/Chrono_Trigger" target="blank">Wikipédia</a></li>
                 </ul>
             </nav>
         </div>
     </header>
     <!-- Fim Header -->
 
-    <section class="introducao">
-        <div class="container">
-            <h1>Chrono Trigger</h1>
+    <section class="introducao quote" >
+        <h1 data-anime="500">Chrono Trigger</h1>
+        <div class="container fadeInDown" data-slide="quote" data-anime="600">
             <blockquote class="quote-externo">
                 <p>"Mal nos conhecemos, mas de alguma forma eu sabia que você viria por mim..."</p>
                 <cite>MARLE</cite>
             </blockquote>
+            <blockquote class="quote-externo">
+                <p>"Se a história está para mudar, que mude. Se o mundo está a ser destuído então que seja. Se o meu destino é morrer, eu devo simplesmente rir."</p>
+                <cite>MAGUS</cite>
+            </blockquote>
+            <blockquote class="quote-externo">
+                <p>"Máquinas não são capazes do mal. Os humanos os fazem assim."</p>
+                <cite>LUCCA</cite>
+            </blockquote>
+            <blockquote class="quote-externo">
+                <p>"Abaixe sua guarda, e você está permitindo que o inimigo entre."</p>
+                <cite>FROG</cite>
+            </blockquote>
+            <blockquote class="quote-externo">
+                <p>"Ayla luta enquanto está vivo! Ganhe e viva. Perder e morrer. Regra da vida. Nenhuma regra de alteração."</p>
+                <cite>AYLA</cite>
+            </blockquote>
+            <blockquote class="quote-externo">
+                <p>"Nome? Ah, meu número de série. É R66-Y."</p>
+                <cite>ROBO</cite>
+            </blockquote>   
         </div>
     </section>
     <!-- Fim Introducao -->
 
     <section class="container plataformas">
-        <h2 class="subtitulo">Plataformas Lançadas</h2>
+        <h2 class="subtitulo" data-anime="500">Plataformas Lançadas</h2>
         <ul class="plataforma_lista">
             <li class="grid-1-3">
                 <div class="plataforma_icone">
@@ -74,13 +96,18 @@
     <!-- Fim Plataformas-->
 
     <section class="personagens">
-        <div class="container">
-            <h2 class="subtitulo">Personagens</h2>
+        <div class="container" data-slide="screen">
             <ul class="personagens_lista">
                 <li class="grid-16"><img src="img/screen/chrono-1.jpg" alt="Crono Label"></li>
                 <li class="grid-8"><img src="img/screen/chrono-2.jpg" alt="Crono Label"></li>
                 <li class="grid-8"><img src="img/screen/chrono-3.jpg" alt="Crono Label"></li>
                 <li class="grid-16"><img src="img/screen/chrono-4.jpg" alt="Crono Label"></li>     
+            </ul>
+            <ul class="personagens_lista">
+                <li class="grid-16"><img src="img/screen/chrono-44.jpg" alt="Crono Label"></li>
+                <li class="grid-8"><img src="img/screen/chrono-22.jpg" alt="Crono Label"></li>
+                <li class="grid-8"><img src="img/screen/chrono-33.jpg" alt="Crono Label"></li>
+                <li class="grid-16"><img src="img/screen/chrono-11.jpg" alt="Crono Label"></li>     
             </ul>
         </div>
         <div class="call">
@@ -110,10 +137,14 @@
        </div> 
        <div class="copy">
         <div class="container">
-            <p class="grid-16">&copyChrono Trigger - Direitos reservados.</p>
+            &copy<a href="https://pt.wikipedia.org/wiki/Chrono_Trigger" target="blank">Chrono Trigger</a> - Direitos reservados.</p>
         </div>
     </div>
     </footer>
+
+    <script src="./js/simple-anime.js"></script>
+    <script src="./js/simple-slide.js"></script>
+    <script src="./js/script.js"></script>
 
 </body>
 </html>
