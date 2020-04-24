@@ -5,7 +5,7 @@
 	.personagem {
 		width: auto;
 	}
-	
+
 		 /* Final do Estilo para TABLET */	
 }
 
@@ -26,7 +26,7 @@
 		text-align: center;
 	}
 
-	/* INTRODUCAO */
+	/* INTRODUCAO PERSONAGEM SOBRE */
 	.introducao {
 		width: 100%;
 		height: 380px;
@@ -80,6 +80,11 @@
 		margin: 12px auto 10px auto;
 	} 
 
+	iframe {
+		width: auto;
+		height: auto;
+	}
+
 	/* PERSONAGEM */
 	.bg_personagens {
 		width: 100%;
@@ -91,10 +96,6 @@
 		padding-top: 80px;
 	}
 
-	iframe {
-		width: auto;
-		height: auto;
-	}
 	
 	/* Final do estilo para CELULAR */
 }
