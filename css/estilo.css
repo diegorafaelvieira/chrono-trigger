@@ -912,8 +912,8 @@ footer p {
 
 	.container h2 {
 		font-size: 20px;
-	}
-
+  }
+  
 	/* HEADER */
 	.header img {
 		margin: 0 auto 10px auto;
@@ -976,6 +976,8 @@ footer p {
 		background: #fff;
 		margin: 12px auto 10px auto;
   } 
+
+
 
 	iframe {
 		width: auto;
